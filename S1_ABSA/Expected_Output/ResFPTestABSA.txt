@@ -1,0 +1,13 @@
+
+Table 1 : Accuracy Niter = 10000 Alpha = 0.050000 
+    Cond1         Cond2       M1    M2    |   diff   p-value
+   aen_bert      bert_spc   0.781  0.770  |  0.0110   0.5774
+   aen_bert        memnet   0.781  0.721  |  0.0596   0.0013
+   aen_bert     atae_lstm   0.781  0.708  |  0.0721   0.0003
+   aen_bert       td_lstm   0.781  0.683  |  0.0972   0.0001
+   bert_spc        memnet   0.770  0.721  |  0.0486   0.0103
+   bert_spc     atae_lstm   0.770  0.708  |  0.0611   0.0013
+   bert_spc       td_lstm   0.770  0.683  |  0.0862   0.0001
+     memnet     atae_lstm   0.721  0.708  |  0.0125   0.5027
+     memnet       td_lstm   0.721  0.683  |  0.0376   0.0402
+  atae_lstm       td_lstm   0.708  0.683  |  0.0251   0.2032
